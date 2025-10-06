@@ -5,6 +5,7 @@ from tkinter import ttk
 import requests
 import json
 #import ttkbootstrap as ttkb
+# Weather App using Tkinter and OpenWeatherMap API
 
 def func_get_weather():
     city = select_city.get()
